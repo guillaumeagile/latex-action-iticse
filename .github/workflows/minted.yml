@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          working_directory: minted/
+          working_directory: ./minted/
           root_file: minted.tex
           latexmk_shell_escape: true
           latexmk_use_lualatex: true
