@@ -4,7 +4,7 @@ set -eo pipefail
 
 run() {
   echo -e "\033[1;34m$@\033[0m"
-  "$@"
+  "$@" 
 }
 
 error() {
